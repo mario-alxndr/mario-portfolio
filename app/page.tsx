@@ -6,6 +6,8 @@ import LoyaltyPage from '../assets/images/loyalty.png';
 import LoyaltyPageMweb from '../assets/images/loyalty-mweb.png';
 import MyReviewPage from '../assets/images/my-review-form.png';
 import MyReviewPageMweb from '../assets/images/my-review-form-mweb.png';
+import MyReviewListPage from '../assets/images/my-review-list.png';
+import MyReviewListPageMweb from '../assets/images/my-review-list-mweb.png';
 import CalculatorPage from '../assets/images/calculator.webp';
 import IpTrackerPage from '../assets/images/ip-tracker.webp';
 import PDP from '../assets/images/pdp.png';
@@ -40,14 +42,26 @@ const Home = () => {
             </div>
             <div className='w-fit mx-auto'>
               <figure className='h-[380px]'> 
-                <Image width={600} className={'shadow-md'} src={MyReviewPage} alt={'myreview-page'}/>
-                <figcaption className='text-center mt-2'>Fig 3. tiket.com&#39;s My Review Page (dweb)</figcaption>
+                <Image width={600} className={'shadow-md'} src={MyReviewListPage} alt={'myreview-list-page'}/>
+                <figcaption className='text-center mt-2'>Fig 3. tiket.com&#39;s My Review List Page (dweb)</figcaption>
               </figure>
             </div>
             <div className='w-fit mx-auto'>
               <figure> 
-                <Image width={300} height={600} className={'shadow-md'} src={MyReviewPageMweb} alt={'myreview-page-mweb'}/>
-                <figcaption className='text-center mt-2'>Fig 4. tiket.com&#39;s My Review Page (mweb)</figcaption>
+                <Image width={300} height={600} className={'shadow-md'} src={MyReviewListPageMweb} alt={'myreview-list-page-mweb'}/>
+                <figcaption className='text-center mt-2'>Fig 4. tiket.com&#39;s My Review List Page (mweb)</figcaption>
+              </figure>
+            </div>
+            <div className='w-fit mx-auto'>
+              <figure className='h-[380px]'> 
+                <Image width={600} className={'shadow-md'} src={MyReviewPage} alt={'myreview-form-page'}/>
+                <figcaption className='text-center mt-2'>Fig 5. tiket.com&#39;s My Review Form Page (dweb)</figcaption>
+              </figure>
+            </div>
+            <div className='w-fit mx-auto'>
+              <figure> 
+                <Image width={300} height={600} className={'shadow-md'} src={MyReviewPageMweb} alt={'myreview-form-page-mweb'}/>
+                <figcaption className='text-center mt-2'>Fig 6. tiket.com&#39;s My Review Form Page (mweb)</figcaption>
               </figure>
             </div>
           </div>
@@ -75,15 +89,15 @@ const Home = () => {
             <div className='grid grid-cols-3 gap-2 mt-4 mweb:grid-cols-1'>
               <figure> 
                 <Image className={'shadow-md'} src={CalculatorPage} alt={'calculator-page'}/>
-                <figcaption className='text-center mt-2'>Fig 5. Frontend Mentor Calculator</figcaption>
+                <figcaption className='text-center mt-2'>Fig 7. Frontend Mentor Calculator</figcaption>
               </figure>
               <figure> 
                 <Image  className={'shadow-md'} src={IpTrackerPage} alt={'ip-tracker'}/>
-                <figcaption className='text-center mt-2'>Fig 6. Frontend Mentor IP Tracker Address (leafletJS)</figcaption>
+                <figcaption className='text-center mt-2'>Fig 8. Frontend Mentor IP Tracker Address (leafletJS)</figcaption>
               </figure>
               <figure> 
                 <Image  className={'shadow-md'} src={PDP} alt={'pdp'}/>
-                <figcaption className='text-center mt-2'>Fig 7. Frontend Mentor PDP Responsive Design (mockup)</figcaption>
+                <figcaption className='text-center mt-2'>Fig 9. Frontend Mentor PDP Responsive Design</figcaption>
               </figure>
           </div>
           </div>
