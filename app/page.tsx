@@ -106,6 +106,7 @@ const Home = () => {
           <hr/>
           <p className='mt-2 text-lg'>Contact me:</p>
           <ul className='list-disc pl-6'>
+            <li>Email: marioalexander998@gmail.com</li>
             <li>Whatsapp: <a className="text-sky-500" href={'https://wa.me/62895348810240'}>+62895348810240</a></li>
             <li>Linkedin: <a className="text-sky-500" href={'https://www.linkedin.com/in/mario-alexander'}>mario-alexander</a></li>
             <li>Github: <a className="text-sky-500" href={'https://github.com/mario-alxndr'}>mario-alxndr</a></li>
