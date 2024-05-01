@@ -52,10 +52,11 @@ const Home = () => {
             </div>
           </div>
           <div className='block'>
-            <p className='text-lg'>tiket.com Internal unpublished projects:</p>
+            <p className='text-lg'>tiket.com internal unpublished projects:</p>
             <ul className='list-disc pl-6'>
               <li>Loyalty content management dashboard.</li>
               <li>Loyalty inject / delete point dashboard.</li>
+              <li>Loyalty customer care dashboard.</li>
               <li>My Review management dashboard.</li>
               <li>
                 Unified membership management dashboard. (used by&nbsp;
@@ -64,6 +65,7 @@ const Home = () => {
                   <a className="text-sky-500" href="https://www.ranchmarket.co.id/aplikasi-mytrust">ranchmarket</a>&nbsp;
                 admins)
               </li>
+              <li>Internal Tools - insurance report dashboard.</li>
               <li>Internal Tools - finance reconciliation dashboard.</li>
             </ul>
           </div>
