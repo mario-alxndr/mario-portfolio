@@ -17,13 +17,13 @@ const Home = () => {
     <main className="bg-slate-100 w-full">
       <div className="bg-slate-50 block h-fit mx-auto p-6 max-w-[1180px]">
         <header>
-          <h1 className="text-2xl">Portfolio</h1>
+          <h1 className="text-2xl">Mario Alexander</h1>
           <hr/>
         </header>
         <div className="my-8">
           <h1 className="text-xl">Hi,</h1>
           <p>
-            I am a passionate front-end developer with 4 years of experience at <a className="text-sky-500" href="https://tiket.com">tiket.com</a> I possess strong expertise in React, Next.js, and TypeScript.
+            I am a passionate front-end developer with 4 years of experience at <a className="text-sky-500" href="https://tiket.com">tiket.com</a> I possess strong expertise in React, NextJS, and TypeScript.
           </p>
           <br/>
           <p className='mb-2'>What have I done:</p>
