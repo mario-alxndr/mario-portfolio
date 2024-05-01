@@ -21,12 +21,10 @@ const Home = () => {
         <div className="my-8">
           <h1 className="text-xl">Hi,</h1>
           <p>
-            I&#39;m enthusiastic front-end developer at&nbsp;
-              <a className="text-sky-500" href="https://tiket.com">tiket.com</a>
-            ,&nbsp;that possess expertise in React - NextJS framework and also typescript for 4 years of experience.
+            I am a passionate front-end developer with 4 years of experience at <a className="text-sky-500" href="https://tiket.com">tiket.com</a> I possess strong expertise in React, Next.js, and TypeScript.
           </p>
           <br/>
-          <p className='mb-2'>What have I work:</p>
+          <p className='mb-2'>What have I done:</p>
           <div className='grid grid-cols-2 mweb:grid-cols-1 gap-4'>
             <div className='w-fit mx-auto'>
               <figure className='h-[380px]'> 
