@@ -54,12 +54,12 @@ const Home = () => {
           <div className='block'>
             <p className='text-lg'>tiket.com internal unpublished projects:</p>
             <ul className='list-disc pl-6'>
-              <li>Loyalty content management dashboard.</li>
-              <li>Loyalty inject / delete point dashboard.</li>
-              <li>Loyalty customer care dashboard.</li>
-              <li>My Review management dashboard.</li>
+              <li>Loyalty - content management dashboard.</li>
+              <li>Loyalty - inject / delete point dashboard.</li>
+              <li>Loyalty - customer care dashboard.</li>
+              <li>My Review - management dashboard.</li>
               <li>
-                Unified membership management dashboard. (used by&nbsp;
+                Unified Membership - management dashboard. (used by&nbsp;
                   <a className="text-sky-500" href="https://tiket.com">tiket.com</a>,&nbsp;
                   <a className="text-sky-500" href="https://blibli.com">blibli.com</a>,&nbsp;
                   <a className="text-sky-500" href="https://www.ranchmarket.co.id/aplikasi-mytrust">ranchmarket</a>&nbsp;

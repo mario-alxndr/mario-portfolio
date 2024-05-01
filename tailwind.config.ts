@@ -18,7 +18,7 @@ const config: Config = {
       playfairdisplay: ["PlayfairDisplay", "sans-serif"],
     },
     screens: {
-      'mweb': { 'max': '600px' },
+      'mweb': { 'max': '420px' },
     }
   },
   plugins: [],
